@@ -1,0 +1,55 @@
+{
+  "name": "foi",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://foichretienne.org/",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.5",
+    "axios": "^1.7.9",
+    "country-state-city": "^3.2.1",
+    "flowbite": "^3.1.2",
+    "laravel-echo": "^1.19.0",
+    "pusher-js": "^8.4.0",
+    "react": "^18.3.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.3.1",
+    "react-player": "^2.16.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^7.0.1",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
+    "react-slideshow-image": "^4.3.2",
+    "react-spinners": "^0.15.0",
+    "react-toastify": "^10.0.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}

@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");body{background-color: #eee;font-family: "Poppins", sans-serif;font-weight: 300}.card{border:none}.ellipsis{color: #a09c9c}hr{color: #a09c9c;margin-top: 4px;margin-bottom: 8px}.muted-color{color: #a09c9c;font-size: 13px}.ellipsis i{margin-top: 3px;cursor: pointer}.icons i{font-size: 25px}.icons .fa-heart{color: red}.icons .fa-smile-o{color: yellow;font-size: 29px}.rounded-image{border-radius: 50%!important;display: flex;justify-content: center;align-items: center;height: 50px;width: 50px}.name{font-weight: 600}.comment-text{font-size: 12px}.status small{margin-right: 10px;color: blue}.form-control{border-radius: 26px}.comment-input{position: relative}.fonts{position: absolute;right: 13px;top:8px;color: #a09c9c}.form-control:focus{color: #495057;background-color: #fff;border-color: #8bbafe;outline: 0;box-shadow: none}
+@media all and (max-width:1245px) {
+  div.headericon{
+    width: 35%!important;
+  }
+}
+@media all and (max-width:1050px) {
+  div.headericon{
+    width: 40%!important;
+  }
+}
+@media all and (max-width:1000px) {
+  .foimobile{
+    display: flex;
+    width: 100%;
+    justify-content: start;
+  }
+  .loupemobile{
+    display: flex;
+  }
+  div.grandheader{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  div.perefoimobile{
+    width: 50%!important;
+    padding-left: 0;
+  }
+  .menumobile{
+    display: flex;
+  }
+  .iconnavbar,.formpcnavbar,.foipc{
+    display: none;
+  }
+  .identifiermobile{
+    flex-direction: row;
+    column-gap: 5px;
+  }
+  div.headericon{
+    column-gap: 10px;
+    width: 50%!important;
+  }
+  .divdroit,.divgauche{
+    display: none;
+  }
+  .divcentre{
+    width: 100%;
+    padding: 0px;
+    top: -40px;
+  }
+  .psaume,.humeur{
+    border-radius: 0;
+  }
+  .pereboutomhumeur{
+    width: 80%;
+  }
+  .boutonhumeur{
+    font-size: small;
+  }
+  .imagehumeur{
+    height: 30px!important;
+  }
+
+  div.lancerprierenow{
+    width: 100%;
+  }
+
+  .bottomBar{
+    display: flex!important;
+  }
+  .messageHeader{
+    display: flex;
+  }
+  div.headericon{
+    column-gap: 20px;
+  }
+  .rechercheMobile{
+    display: flex;
+   
+  }
+  div.nouvelledivdroite,div.groupeoverflow{
+    width: 100%;
+  }
+  .monogroupe{
+    width: 90%;
+  }
+}
+
+@media all and (min-width:1000px) {
+  section.sectionapercugroupe{
+    top: 0;
+    width: 90%;
+  }
+}
+
+@media all and (max-width:317px) {
+  .potentialfriends{
+    font-size: small;
+  }
+
+}
+
+.amenpub:hover,.commentpub:hover,.partagepub:hover{
+  background-color: #80808026;
+}
+
+@media all and (max-width:600px) {
+  .amenpub,.commentpub,.partagepub{
+    font-size: small;
+    gap: 5px;
+  }
+
+  .namecomment{
+    font-size: small;
+  }
+}
+
+@media all and (max-width:350px) {
+  div.pereiconspub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center!important;
+    gap: 0;
+  }
+  .amenpub,.commentpub,.partagepub{
+    font-size: small;
+    gap: 2pxpx!important;
+  }
+ 
+}
+
+@media all and (max-width:338px) {
+  div.statpublication{
+    font-size: xx-small;
+  }
+}
+
+@media all and (max-width:338px) {
+  .amenpub,.commentpub,.partagepub{
+    font-size: x-small;
+  }
+}
+
+@media all and (max-width:316px) {
+  span.foimobile{
+    font-size: small;
+  }
+}
+
+@media all and (max-width:800px) {
+  div.comment-textarea{
+    width: 95%!important;
+    left: 8.3px;
+  }
+}
+
+@media all and (min-width:575px) and (max-width:800px) {
+  div.comment-textarea{
+    width: 60%!important;
+    left: 153.5px!important;
+  }
+}
+@media all and (min-width:575px) and (max-width:750px) {
+  div.comment-textarea{
+    width: 68%!important;
+    left: 16%!important;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.psaume{
+  padding-top: 30px!important;
+}
+
+@media all and (max-width:340px) {
+  .tabswipe{
+    font-size: x-small!important;
+  }
+}
+
+@media all and (min-width:1000px) {
+  .formeditprofil{
+    width: 70%;
+  }
+}
+@media all and (min-width:900px) {
+  .loginform{
+    width: 40%;
+  }
+}
+@media all and (max-width:800px) {
+  .listediscussion{
+    width: 100%;
+  }
+  .boutonjoindrepriere{
+    width: 100%;
+  }
+}
+
+
